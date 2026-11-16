@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/simbolo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./assets/marvel-logo-4.png" alt="logo" class="logo-marvel"/>
+                <span class="logo-text"> Willian</span>
+            </div>
+         </a>
+
+        <div class="social-media">
+            <a href=" https://www.facebook.com/profile.php?id=100008306884694" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/willian_knupp_/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/in/willian-moreira-knupp-614909230/"target="_blank" rel="noopener noreferrer"> 
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span>
+            </a>
+        </div>
+        
+    </header>
+    <div class="main-container1">
+        <h2>Conheça todos os personagens do filme Vingadores em um só lugar</h2>
+    </div>
+
+    <section class="controls" aria-label="Filtrar personagens">
+<label for="search">Buscar personagem<input id="search" type="search" placeholder="Nome ou identidade do herói"></label>
+<label for="sort">Ordenar<select id="sort"><option value="original">Ordem original</option><option value="az">Nome: A–Z</option><option value="za">Nome: Z–A</option></select></label>
+<button id="favorites-filter" type="button" aria-pressed="false">Meus favoritos (0)</button>
+<button id="clear-filters" type="button">Limpar filtros</button>
+<p id="result-count" role="status"></p>
+</section>
+<p id="empty-state" hidden>Nenhum personagem encontrado. Tente outra busca ou limpe os filtros.</p>
+<div class="main-container2">
+        
+
+        <div class="main-container">
+            <div class="cards" style=" background-image: url('https://data1.ibtimes.co.in/en/full/603660/robert-downey-jr-tony-stark.png?w=707&h=412&l=50&t=40');">
+                <div class="character-name-bg">
+                    <span class="character-name">Tony Stark(Homem de Ferro)</span>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('https://i.pinimg.com/564x/40/25/5f/40255f10dfdbfe9efb8d3e522a7e8770.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Steve Rogers(Capitão América)</span>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('https://i.pinimg.com/736x/04/0c/c5/040cc526dd91c7a37e43ef659105ff95.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Thor(deus do Trovão)</span>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Bruce Banner.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Bruce Banner (Hulk)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('https://i.pinimg.com/originals/68/06/38/680638ecdeb48ada33a01b772c047f15.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Natasha Romanoff(Viúva Negra) </span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style="background-image: url('Herois/Clint\ Barton.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Clint Barton(Gavião Arqueiro)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('https://pbs.twimg.com/media/EgkEx4WWoAE72y_.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">T’Challa (Pantera Negra)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('https://i.pinimg.com/1200x/c4/5e/1b/c45e1bad19551a769c1faaf9d71ce74a.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Bucky(Soldado Invernal)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('https://legadodamarvel.com.br/wp-content/uploads/2022/04/3-doutor-estranho-2-casamento-legadodamarvel.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Stephen Strange (Dr. Strange)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('https://br.web.img3.acsta.net/pictures/18/07/05/00/54/2308079.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Scott Lang(Homem-Formiga)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Heimdall.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Heimdall</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Odin.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Odin - Pai de Todos</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Ultron.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Ultron</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Homem_Aranha.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Peter Paker(Homem-Aranha)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Feiticeira\ Escarlate\ \(Wanda\ Maximoff\).jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Wanda Maximoff (Feiticeira Escarlate)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Drax.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Drax</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Gamora.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Gamora</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Senhor\ das\ Estrelas\ \(Peter\ Quill\).jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Peter Quill (Senhor das Estrelas)</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Rocket\ Raccoon.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Rocket</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Groot.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Groot</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Nebulosa.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Nebulosa</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Mantis.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Mantis</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Thanos.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Thanos</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Visão.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Visão</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/JARVIS.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Jarvis</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Máquina\ de\ Combate\ \(James\ Rhodes\).jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">James Rhodes (Máquina de Combate)</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Nick\ Fury.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Nick Fury</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Agente\ Maria\ Hill.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Agente Maria Hill</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Hela.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Hela</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Loki.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Loki</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Pepper\ Potts.jpeg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Pepper Potts</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Valquíria.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Brunhilde(Valquiria)</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Killmonger.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Killmonger</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Yondu\ Udonta.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Yondu Udonta</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Falcão\(\ Sam\ Wilson\).jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Sam Wilson(Falcão)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/DeedPool.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Wade Wilson(Deadpool)</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Dr.Destino.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Victor Von Doom(Doutor Destino)</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('herois/Duende.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Norman Osborn(Duende Verde)</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('Herois/Caveria\ Vermelha.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Caveria Vermelha</span>
+                </div>
+            </div>
+         </div>
+
+          <div class="main-container">
+            <div class="cards" style=" background-image: url('herois/Wong.jpg');">
+                <div class="character-name-bg">
+                    <span class="character-name">Wong</span>
+                </div>
+            </div>
+         </div>
+
+
+    </div>
+    <dialog id="character-dialog" aria-labelledby="dialog-name">
+<button id="close-dialog" type="button" aria-label="Fechar detalhes">×</button>
+<img id="dialog-image" alt="">
+<div class="dialog-content"><h2 id="dialog-name"></h2><p id="dialog-alias"></p><p id="dialog-description"></p><h3>Habilidades</h3><p id="dialog-abilities"></p><button id="toggle-favorite" type="button" aria-pressed="false">Adicionar aos favoritos</button></div>
+</dialog>
+<script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/38cdd40da4.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
